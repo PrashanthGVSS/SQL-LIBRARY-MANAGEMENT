@@ -1,0 +1,9 @@
+This project showcases the practical application of SQL in creating and managing a robust Library Management System. The project involves setting up a comprehensive database, performing CRUD operations, and developing advanced queries for data analysis. The use of CTAS and optimized query techniques highlights the ability to handle complex data scenarios efficiently. This project not only reinforces your SQL skills but also demonstrates your capability in database design and management, making it a valuable addition to your professional portfolio.
+
+
+Logic Explanations for Specific Functions
+Use of JOINs: JOINs were extensively used to combine data from multiple tables, such as linking books, issued_status, and members. This approach allows retrieving related data in a single query, which is crucial for generating comprehensive reports like overdue books or branch performance.
+
+GROUP BY with HAVING: The combination of GROUP BY and HAVING was used to aggregate data, such as counting the number of books issued by an employee. HAVING was applied to filter groups based on aggregated data, which is essential for analyzing specific patterns or outliers.
+
+CTAS for Summary Tables: The CTAS functionality was employed to create summary tables based on query results, such as book_cnts. This technique is useful for storing aggregated data that can be queried frequently without reprocessing the raw data, thus improving performance.
